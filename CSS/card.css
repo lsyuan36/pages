@@ -1,0 +1,57 @@
+.cardset{
+	width: 350px;
+	border-radius: 10px;
+	padding: 0px;
+	box-sizing: border-box;
+    align-items: center;
+}
+.cardtext{
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 1.25em;
+
+
+	text-align: center;	
+
+	color: #2B4141;
+}
+.stcardpic{
+	max-width:396px;
+	max-height: 350px;
+	border-radius: 10px;
+	
+}
+.cardbd{
+	width: 350px;
+}
+.midcardpic{
+	width: 400px;
+	height: 200px;
+	box-sizing: border-box;
+	border-radius: 10px;
+}
+.midcardpic:hover{
+	transform: scale(1.1);
+	transition: all 0.25s;
+}
+
+.card:hover{
+	transform: scale(1.1);
+	transition: all 0.25s;
+	
+ }
+ .btmcard{
+ 	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 2em;
+ }
+/*.card:hover ::after{
+ 	content: "fuck";
+ 	color: black;
+ 	position: absolute;
+ 	background-color: rgba(255,255,255,0.8);
+ 	width: 350px;
+ 	height: 400px;
+ }*/
